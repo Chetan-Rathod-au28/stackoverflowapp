@@ -1,0 +1,18 @@
+{
+  "name": "hostelmanageapp",
+  "version": "1.0.0",
+  "description": "\"This is a hostel management app\"",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "dev": "node server.js"
+  },
+  "author": "@iamchetanr",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
