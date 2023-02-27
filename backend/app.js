@@ -4,10 +4,15 @@ const app = express()
 
 app.use(express.json())
 //route import
-import product from "./routes/productRoute.js"
+import router from "./routes/dataRoute.js"
 
 
-app.use("/api/v1",product)
+app.use("/api/v1",router)
+
+
+
+
+
 
 app.listen(APP_PORT,()=>{
     console.log(`App is listening at post ${APP_PORT} `)
